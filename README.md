@@ -45,3 +45,56 @@ git clone https://github.com/Lindsay-00/senet-python.git
 cd senet-python
 ```
 
+### Running the Game
+
+Once you have Python and Pygame installed and have obtained the source code, you can start the game by navigating to the project directory and running the main script. Here's how to execute the game:
+```bash
+python3 main.py
+```
+
+This command starts the Senet game using Python 3. Ensure you are in the correct directory where main.py is located when you execute this command.
+
+## Rules of Senet
+
+The game board consists of 30 squares, arranged in three rows of ten. The squares are numbered from 1 to 30, and the movement is typically in a reverse "S" pattern, starting from the bottom left, moving to the right, and then zigzagging back to the top. Each player has a set of pawns (7 in this version), which they move according to the rolls of throwing sticks or, in some modern recreations, dice.
+
+### Objective
+The main objective of Senet is to move all your pawns off the board before your opponent. This represents a journey through the underworld in the context of ancient Egyptian beliefs, culminating in the afterlife.
+
+### Setup
+- Each player starts with 7 pawns placed alternately on the first 14 squares of the board.
+- Player with black pawns goes first.
+
+### Game Play
+1. **Turns**: Players take turns, each casting the sticks (dice in this version) to determine their move. The sticks have one side marked and one side unmarked, and the number of marked sides facing up determines the number of spaces a player can move their pawn.
+2. **Movement**: Players move their pawns along the squares starting from the first square, moving towards the 30th square in a reversed "S" or zigzag pattern. Players must move a pawn when a valid move is available. If no valid moves are possible on a player's turn due to the outcome of the casting sticks or the position of pawns on the board, the turn automatically passes to the opponent.
+3. **Swapping Places**: If a player lands on a square occupied by an opponent's pawn, the two pawns swap positions, except in the following cases:
+   - **Blocked by Two**: If the opponent's pawns are in two consecutive squares leading up to the square landed on, the swap does not occur as the path is blocked.
+   - **Blocked by Three**: If the opponent's pawns occupy three consecutive squares leading up to the square landed on, the player cannot swap positions or jump over these pawns. This creates a barrier that must be navigated around through other moves or strategic plays.
+4. **Safe squares**: Some squares are marked as "safe," where pawns cannot be swapped.
+   - **The House of Rebirth (Square 15)**
+   - **The House of Happiness (Square 26)**
+   - **The House of Three Truths (Square 28)**
+   - **The House of the Re-Atoum (Square 29)**
+5. **Special squares**:
+   - The 15th square is the "House of Rebirth": Landing on this square allows a player's pawn to be "reborn." It's a safe square where pawns cannot be swapped.
+   - The 26th square is the "House of Happiness," players must land on this square in order to proceed.
+   - The 27th square is the "House of Water," and landing on this square will send the player's pawn back The House of Rebirth (Square 15). If The House of Rebirth is already occupied by another pawn, the arriving pawn will be sent to the first unoccupied square before Square 15.
+   - The 28th square is the "House of Three Truths," which requires a roll of three to leave.
+   - The 29th square is the "House of Two Truths," requiring a roll of two to advance.
+
+
+### Winning the Game
+
+- The first player to successfully move all of their pawns off the board, by landing exactly on the 31st square with each, wins the game.
+
+
+### Casting the sticks
+
+In this digital version of Senet, instead of casting sticks, players will click on a "Roll Dice" button to determine their moves. The simulated dice roll mimics the probability distribution of the casting sticks with the following chances for each outcome:
+- **1 move**: 1/4 chances
+- **2 moves**: 3/8 chances
+- **3 moves**: 1/4 chances
+- **4 moves**: 1/16 chance
+- **5 moves**: 1/16 chance
+
