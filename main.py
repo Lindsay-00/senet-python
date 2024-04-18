@@ -8,6 +8,18 @@ WIN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHTS))
 pygame.display.set_caption('Senet')
 FPS = 60
 
+import sys
+
+def print_and_log(*args, file_name="5_heuristic_sim.log", **kwargs):
+    # Open the log file in append mode
+    with open(file_name, "a") as log_file:
+        # Print to stdout
+        print(*args, **kwargs)
+        # Print to log file
+        print(*args, file=log_file, **kwargs)
+
+
+
 def get_position_from_mouse(pos):
     x, y = pos
     if x >= BOARD_ORIGIN_X and y >= BOARD_ORIGIN_Y and x <= BOARD_ORIGIN_X + TILE_SIZE + TILE_MARGIN + WIDTH and y <= BOARD_ORIGIN_Y + HEIGHT + TILE_SIZE + TILE_MARGIN:
@@ -44,10 +56,11 @@ def main():
             else:
                 black_win += 1
             game.reset()
-            print(count)
-            print("white " + game.white_player.type + str(white_win))
-            print("black " + game.gray_player.type + str(black_win))
-            print("average time " + str((time.time() - start_time) / count))
+            print_and_log(count)
+            print_and_log("white " + game.white_player.type + str(white_win))
+            print_and_log("black " + game.gray_player.type + str(black_win))
+            print_and_log((black_win - white_win) / count)
+            print_and_log("average time " + str((time.time() - start_time) / count))
             if count == 5000:
                 is_active = False
 

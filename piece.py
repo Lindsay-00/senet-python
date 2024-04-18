@@ -29,3 +29,8 @@ class Piece:
         
     def __repr__(self):
         return f"Piece({self.row}, {self.col}, {self.color})"
+    
+    def __eq__(self, other):
+        if isinstance(other, Piece):
+            return self.color == other.color and self.row == other.row and self.col == other.col
+        return False

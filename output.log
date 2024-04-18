@@ -1,0 +1,1613 @@
+timelimit 0.5, 7 states
+1
+white mcts0
+black heuristic1
+average time 51.00879120826721
+2
+white mcts0
+black heuristic2
+average time 47.18718361854553
+3
+white mcts1
+black heuristic2
+average time 47.69719203313192
+4
+white mcts2
+black heuristic2
+average time 47.77096027135849
+5
+white mcts2
+black heuristic3
+average time 47.31276483535767
+6
+white mcts2
+black heuristic4
+average time 46.61708319187164
+7
+white mcts2
+black heuristic5
+average time 46.96647988046919
+8
+white mcts3
+black heuristic5
+average time 46.38123154640198
+9
+white mcts3
+black heuristic6
+average time 46.26966102917989
+10
+white mcts3
+black heuristic7
+average time 46.42218582630157
+11
+white mcts3
+black heuristic8
+average time 45.896948554299094
+12
+white mcts3
+black heuristic9
+average time 45.931745092074074
+13
+white mcts3
+black heuristic10
+average time 46.16001162162194
+14
+white mcts3
+black heuristic11
+average time 45.3385112285614
+15
+white mcts4
+black heuristic11
+average time 45.12014708518982
+16
+white mcts5
+black heuristic11
+average time 44.81359800696373
+17
+white mcts5
+black heuristic12
+average time 44.62811266674715
+18
+white mcts5
+black heuristic13
+average time 44.847890297571816
+19
+white mcts6
+black heuristic13
+average time 44.92436779172797
+20
+white mcts6
+black heuristic14
+average time 44.75493001937866
+21
+white mcts6
+black heuristic15
+average time 45.08329439163208
+22
+white mcts6
+black heuristic16
+average time 44.91802514683116
+23
+white mcts6
+black heuristic17
+average time 44.96713718124058
+24
+white mcts6
+black heuristic18
+average time 45.01401667793592
+25
+white mcts7
+black heuristic18
+average time 44.95724028587341
+26
+white mcts7
+black heuristic19
+average time 44.65350908499498
+27
+white mcts7
+black heuristic20
+average time 44.93959563749808
+28
+white mcts8
+black heuristic20
+average time 44.695305798734935
+29
+white mcts8
+black heuristic21
+average time 45.0264449695061
+30
+white mcts8
+black heuristic22
+average time 44.92662357489268
+31
+white mcts8
+black heuristic23
+average time 45.10342152657047
+32
+white mcts8
+black heuristic24
+average time 45.11928240954876
+33
+white mcts9
+black heuristic24
+average time 45.21925982561979
+34
+white mcts10
+black heuristic24
+average time 45.0934986296822
+35
+white mcts11
+black heuristic24
+average time 45.17515871865409
+36
+white mcts11
+black heuristic25
+average time 45.339652591281464
+37
+white mcts12
+black heuristic25
+average time 45.53058130676682
+38
+white mcts13
+black heuristic25
+average time 45.61970218859221
+39
+white mcts14
+black heuristic25
+average time 45.50354064427889
+40
+white mcts15
+black heuristic25
+average time 45.52621460556984
+41
+white mcts15
+black heuristic26
+average time 45.58722515222503
+42
+white mcts15
+black heuristic27
+average time 45.60507395721617
+43
+white mcts15
+black heuristic28
+average time 45.660730866498724
+44
+white mcts16
+black heuristic28
+average time 45.65988643602891
+45
+white mcts16
+black heuristic29
+average time 45.571845070521036
+46
+white mcts16
+black heuristic30
+average time 45.58316915449889
+47
+white mcts17
+black heuristic30
+average time 45.591284685946526
+48
+white mcts17
+black heuristic31
+average time 45.49341596662998
+49
+white mcts18
+black heuristic31
+average time 45.40160378144712
+50
+white mcts19
+black heuristic31
+average time 45.395748682022095
+51
+white mcts19
+black heuristic32
+average time 45.44176588338964
+52
+white mcts19
+black heuristic33
+average time 45.50092450013528
+53
+white mcts19
+black heuristic34
+average time 45.59727560799077
+54
+white mcts19
+black heuristic35
+average time 45.72878137782768
+55
+white mcts20
+black heuristic35
+average time 45.785545804283835
+56
+white mcts20
+black heuristic36
+average time 45.70583798629897
+57
+white mcts20
+black heuristic37
+average time 45.90371003903841
+58
+white mcts21
+black heuristic37
+average time 45.90062281592139
+59
+white mcts21
+black heuristic38
+average time 45.91577644267325
+60
+white mcts21
+black heuristic39
+average time 45.93089465300242
+61
+white mcts21
+black heuristic40
+average time 45.85917559217234
+62
+white mcts21
+black heuristic41
+average time 45.90494582729955
+63
+white mcts21
+black heuristic42
+average time 45.927392335165116
+64
+white mcts21
+black heuristic43
+average time 46.318751096725464
+65
+white mcts21
+black heuristic44
+average time 46.30978291218097
+66
+white mcts21
+black heuristic45
+average time 46.43167207819043
+67
+white mcts22
+black heuristic45
+average time 46.473087271647664
+68
+white mcts23
+black heuristic45
+average time 46.38092684395173
+69
+white mcts23
+black heuristic46
+average time 46.377388149067976
+70
+white mcts24
+black heuristic46
+average time 46.41107071808406
+71
+white mcts25
+black heuristic46
+average time 46.27332486233241
+72
+white mcts26
+black heuristic46
+average time 46.18746804528766
+73
+white mcts27
+black heuristic46
+average time 46.15093122116507
+74
+white mcts27
+black heuristic47
+average time 46.197001650526715
+75
+white mcts27
+black heuristic48
+average time 46.319564816157026
+76
+white mcts27
+black heuristic49
+average time 49.864264384696355
+77
+white mcts27
+black heuristic50
+average time 51.29295558743662
+78
+white mcts27
+black heuristic51
+average time 52.413546106754204
+79
+white mcts27
+black heuristic52
+average time 59.6418915971925
+80
+white mcts28
+black heuristic52
+average time 59.389830327034
+81
+white mcts29
+black heuristic52
+average time 59.14321170912849
+82
+white mcts29
+black heuristic53
+average time 58.97076027277039
+83
+white mcts30
+black heuristic53
+average time 58.74643060385463
+84
+white mcts30
+black heuristic54
+average time 58.55706153880982
+85
+white mcts30
+black heuristic55
+average time 58.40459715618807
+86
+white mcts30
+black heuristic56
+average time 58.244643513546436
+87
+white mcts30
+black heuristic57
+average time 58.066105428783374
+88
+white mcts30
+black heuristic58
+average time 57.86112147840586
+89
+white mcts31
+black heuristic58
+average time 57.66151506981153
+90
+white mcts32
+black heuristic58
+average time 57.572183934847516
+91
+white mcts32
+black heuristic59
+average time 57.469344542576714
+92
+white mcts32
+black heuristic60
+average time 57.40772428460743
+93
+white mcts32
+black heuristic61
+average time 57.341325001050066
+94
+white mcts32
+black heuristic62
+average time 57.24444662002807
+95
+white mcts32
+black heuristic63
+average time 57.0833561721601
+96
+white mcts32
+black heuristic64
+average time 56.91888735691706
+97
+white mcts32
+black heuristic65
+average time 56.74081583612973
+98
+white mcts32
+black heuristic66
+average time 56.620938850908864
+99
+white mcts33
+black heuristic66
+average time 56.46669962671068
+100
+white mcts33
+black heuristic67
+average time 56.42984727144241
+101
+white mcts34
+black heuristic67
+average time 56.24695649713573
+102
+white mcts34
+black heuristic68
+average time 56.0979716871299
+103
+white mcts34
+black heuristic69
+average time 55.97719745728576
+104
+white mcts34
+black heuristic70
+average time 55.80216402961658
+105
+white mcts34
+black heuristic71
+average time 55.60921936262221
+106
+white mcts34
+black heuristic72
+average time 55.62311254132469
+107
+white mcts35
+black heuristic72
+average time 55.46173474053356
+108
+white mcts36
+black heuristic72
+average time 55.37735573450724
+109
+white mcts37
+black heuristic72
+average time 55.320931176526834
+110
+white mcts38
+black heuristic72
+average time 55.22039686549794
+111
+white mcts38
+black heuristic73
+average time 55.05787461512798
+112
+white mcts38
+black heuristic74
+average time 54.949541536825045
+113
+white mcts38
+black heuristic75
+average time 54.85352234713799
+114
+white mcts38
+black heuristic76
+average time 54.87708034431725
+115
+white mcts39
+black heuristic76
+average time 54.760804653167725
+116
+white mcts39
+black heuristic77
+average time 54.71852895925785
+117
+white mcts39
+black heuristic78
+average time 54.63004669572553
+118
+white mcts40
+black heuristic78
+average time 54.525116170867015
+119
+white mcts41
+black heuristic78
+average time 54.468521170255514
+120
+white mcts42
+black heuristic78
+average time 54.3817998945713
+121
+white mcts42
+black heuristic79
+average time 54.34983796915732
+122
+white mcts42
+black heuristic80
+average time 54.26860196864018
+123
+white mcts42
+black heuristic81
+average time 54.16246841011978
+124
+white mcts42
+black heuristic82
+average time 54.0635209391194
+125
+white mcts42
+black heuristic83
+average time 53.99163973808289
+126
+white mcts42
+black heuristic84
+average time 53.923901756604515
+127
+white mcts42
+black heuristic85
+average time 53.80381616644972
+128
+white mcts42
+black heuristic86
+average time 53.73143847100437
+129
+white mcts43
+black heuristic86
+average time 53.66687777615333
+130
+white mcts43
+black heuristic87
+average time 53.55249643142407
+131
+white mcts44
+black heuristic87
+average time 53.495448474665636
+132
+white mcts44
+black heuristic88
+average time 53.40931871262464
+133
+white mcts45
+black heuristic88
+average time 53.408459595271516
+134
+white mcts46
+black heuristic88
+average time 53.30790174897037
+135
+white mcts46
+black heuristic89
+average time 53.2068129574811
+136
+white mcts46
+black heuristic90
+average time 53.1019766330719
+137
+white mcts46
+black heuristic91
+average time 52.99004510371354
+138
+white mcts46
+black heuristic92
+average time 52.94177158155303
+139
+white mcts47
+black heuristic92
+average time 53.00588293555829
+140
+white mcts48
+black heuristic92
+average time 52.969715530531744
+141
+white mcts48
+black heuristic93
+average time 52.87616060304303
+142
+white mcts48
+black heuristic94
+average time 52.81020602374009
+143
+white mcts49
+black heuristic94
+average time 52.76351794496283
+144
+white mcts50
+black heuristic94
+average time 52.669920368327034
+145
+white mcts50
+black heuristic95
+average time 52.62890404997201
+146
+white mcts51
+black heuristic95
+average time 52.5850110837858
+147
+white mcts51
+black heuristic96
+average time 52.55097221355049
+148
+white mcts51
+black heuristic97
+average time 52.44450685301342
+149
+white mcts51
+black heuristic98
+average time 52.389822398256136
+150
+white mcts52
+black heuristic98
+average time 52.341430501937865
+151
+white mcts53
+black heuristic98
+average time 52.29390909498101
+152
+white mcts53
+black heuristic99
+average time 52.24284572507206
+153
+white mcts53
+black heuristic100
+average time 52.1482292421503
+154
+white mcts53
+black heuristic101
+average time 52.11483392467746
+155
+white mcts53
+black heuristic102
+average time 52.037796381981146
+156
+white mcts53
+black heuristic103
+average time 51.94191642449452
+157
+white mcts54
+black heuristic103
+average time 52.09657476054635
+158
+white mcts54
+black heuristic104
+average time 52.13372638104837
+159
+white mcts54
+black heuristic105
+average time 52.148641019497276
+160
+white mcts54
+black heuristic106
+average time 52.069597993791106
+161
+white mcts54
+black heuristic107
+average time 52.07814433559868
+162
+white mcts54
+black heuristic108
+average time 52.055509464240366
+163
+white mcts54
+black heuristic109
+average time 52.03003412960497
+164
+white mcts54
+black heuristic110
+average time 51.96382687876864
+165
+white mcts55
+black heuristic110
+average time 51.907380031816885
+166
+white mcts55
+black heuristic111
+average time 51.87075556760811
+167
+white mcts56
+black heuristic111
+average time 51.82139697760165
+168
+white mcts56
+black heuristic112
+average time 51.815945863723755
+169
+white mcts56
+black heuristic113
+average time 51.80216687670826
+170
+white mcts57
+black heuristic113
+average time 51.81178945373087
+171
+white mcts57
+black heuristic114
+average time 51.74834968053806
+172
+white mcts58
+black heuristic114
+average time 51.733772273673566
+173
+white mcts58
+black heuristic115
+average time 51.70932980493314
+174
+white mcts58
+black heuristic116
+average time 51.672508231524766
+175
+white mcts58
+black heuristic117
+average time 51.64793421336583
+176
+white mcts58
+black heuristic118
+average time 51.70424194363031
+177
+white mcts58
+black heuristic119
+average time 51.655933442088845
+178
+white mcts59
+black heuristic119
+average time 51.641848647192624
+179
+white mcts60
+black heuristic119
+average time 51.63016033572192
+180
+white mcts60
+black heuristic120
+average time 51.61038427882724
+181
+white mcts61
+black heuristic120
+average time 51.63209849299647
+182
+white mcts61
+black heuristic121
+average time 51.59434723854065
+183
+white mcts61
+black heuristic122
+average time 51.56445140004809
+184
+white mcts61
+black heuristic123
+average time 51.529273322095044
+185
+white mcts62
+black heuristic123
+average time 51.48934205544961
+186
+white mcts62
+black heuristic124
+average time 51.48965984006082
+187
+white mcts62
+black heuristic125
+average time 51.44435779806127
+188
+white mcts62
+black heuristic126
+average time 51.39166639967168
+189
+white mcts63
+black heuristic126
+average time 51.36031882094328
+190
+white mcts64
+black heuristic126
+average time 51.312608137883636
+191
+white mcts64
+black heuristic127
+average time 51.2693350951709
+192
+white mcts64
+black heuristic128
+average time 51.232572980225086
+193
+white mcts65
+black heuristic128
+average time 51.19570963864499
+194
+white mcts65
+black heuristic129
+average time 51.18213135065491
+195
+white mcts65
+black heuristic130
+average time 51.128585466971764
+196
+white mcts65
+black heuristic131
+average time 51.166646801695535
+197
+white mcts66
+black heuristic131
+average time 51.159292650706874
+198
+white mcts67
+black heuristic131
+average time 51.13788134401495
+199
+white mcts68
+black heuristic131
+average time 51.1528444877222
+200
+white mcts68
+black heuristic132
+average time 51.093786940574645
+201
+white mcts69
+black heuristic132
+average time 51.071561030487516
+202
+white mcts69
+black heuristic133
+average time 51.067530070201
+203
+white mcts69
+black heuristic134
+average time 51.01918517427492
+204
+white mcts69
+black heuristic135
+average time 50.99076705119189
+205
+white mcts69
+black heuristic136
+average time 50.94036122996633
+206
+white mcts69
+black heuristic137
+average time 50.90978077314433
+207
+white mcts70
+black heuristic137
+average time 50.85902901663297
+208
+white mcts70
+black heuristic138
+average time 50.82847270828027
+209
+white mcts70
+black heuristic139
+average time 50.84398136526774
+210
+white mcts71
+black heuristic139
+average time 50.841183957599455
+211
+white mcts72
+black heuristic139
+average time 50.795034891056225
+212
+white mcts72
+black heuristic140
+average time 50.77181406740873
+213
+white mcts72
+black heuristic141
+average time 50.75157104747396
+214
+white mcts73
+black heuristic141
+average time 50.74557057607954
+215
+white mcts73
+black heuristic142
+average time 50.703865447155266
+216
+white mcts74
+black heuristic142
+average time 50.645852835090075
+217
+white mcts74
+black heuristic143
+average time 50.64114444376686
+218
+white mcts74
+black heuristic144
+average time 50.61624172521294
+219
+white mcts74
+black heuristic145
+average time 50.59843587766499
+220
+white mcts74
+black heuristic146
+average time 51.65800301920284
+221
+white mcts74
+black heuristic147
+average time 52.61065205513622
+222
+white mcts75
+black heuristic147
+average time 52.9082101175377
+223
+white mcts75
+black heuristic148
+average time 52.897759431146184
+224
+white mcts75
+black heuristic149
+average time 52.86888054971184
+225
+white mcts75
+black heuristic150
+average time 52.87872317420112
+226
+white mcts76
+black heuristic150
+average time 52.81043212076204
+227
+white mcts76
+black heuristic151
+average time 52.79543910677737
+228
+white mcts76
+black heuristic152
+average time 52.79847892125448
+229
+white mcts76
+black heuristic153
+average time 52.75586911372222
+230
+white mcts77
+black heuristic153
+average time 52.74128187946651
+231
+white mcts78
+black heuristic153
+average time 52.69550926551158
+232
+white mcts79
+black heuristic153
+average time 52.687489544523174
+233
+white mcts79
+black heuristic154
+average time 52.64970318953878
+234
+white mcts79
+black heuristic155
+average time 52.629964539128494
+235
+white mcts80
+black heuristic155
+average time 52.6121153293772
+236
+white mcts80
+black heuristic156
+average time 52.60760256092427
+237
+white mcts80
+black heuristic157
+average time 52.57262767618719
+238
+white mcts80
+black heuristic158
+average time 52.5355888454854
+239
+white mcts80
+black heuristic159
+average time 52.51190900902369
+240
+white mcts80
+black heuristic160
+average time 52.458022829890254
+241
+white mcts80
+black heuristic161
+average time 52.41542430735228
+242
+white mcts81
+black heuristic161
+average time 52.41653821192497
+243
+white mcts82
+black heuristic161
+average time 52.3618558816949
+244
+white mcts82
+black heuristic162
+average time 52.34886414008062
+245
+white mcts82
+black heuristic163
+average time 52.31212715226777
+246
+white mcts83
+black heuristic163
+average time 52.28901539973127
+247
+white mcts84
+black heuristic163
+average time 52.23436175763366
+248
+white mcts84
+black heuristic164
+average time 52.23915803336328
+249
+white mcts84
+black heuristic165
+average time 52.181710265247695
+250
+white mcts85
+black heuristic165
+average time 52.143428133010865
+251
+white mcts85
+black heuristic166
+average time 52.11805268967769
+252
+white mcts85
+black heuristic167
+average time 52.099172611085194
+253
+white mcts85
+black heuristic168
+average time 52.067532747630544
+254
+white mcts85
+black heuristic169
+average time 52.02527786709192
+255
+white mcts86
+black heuristic169
+average time 51.99875013407539
+256
+white mcts86
+black heuristic170
+average time 51.97691545076668
+257
+white mcts86
+black heuristic171
+average time 52.13207839064097
+258
+white mcts87
+black heuristic171
+average time 52.56173222563987
+259
+white mcts87
+black heuristic172
+average time 53.01988030216408
+260
+white mcts87
+black heuristic173
+average time 53.43202885481028
+261
+white mcts87
+black heuristic174
+average time 54.02858103098084
+262
+white mcts87
+black heuristic175
+average time 63.877990256739025
+263
+white mcts87
+black heuristic176
+average time 68.65873383297213
+264
+white mcts88
+black heuristic176
+average time 68.55940349354888
+265
+white mcts89
+black heuristic176
+average time 68.45224928765927
+266
+white mcts89
+black heuristic177
+average time 68.37078196661813
+267
+white mcts90
+black heuristic177
+average time 68.28208843866985
+268
+white mcts90
+black heuristic178
+average time 68.19022055259391
+269
+white mcts90
+black heuristic179
+average time 68.0817101524665
+270
+white mcts90
+black heuristic180
+average time 68.0181485193747
+271
+white mcts90
+black heuristic181
+average time 70.0484893849855
+272
+white mcts90
+black heuristic182
+average time 69.99726336142596
+273
+white mcts90
+black heuristic183
+average time 70.3089248024937
+274
+white mcts90
+black heuristic184
+average time 89.82769908870223
+275
+white mcts91
+black heuristic184
+average time 89.64379509925843
+276
+white mcts91
+black heuristic185
+average time 89.52151153398597
+277
+white mcts91
+black heuristic186
+average time 89.36765347318959
+278
+white mcts91
+black heuristic187
+average time 89.18702328462395
+279
+white mcts91
+black heuristic188
+average time 89.03043154918164
+280
+white mcts92
+black heuristic188
+average time 88.86669307521412
+281
+white mcts93
+black heuristic188
+average time 88.71536639916091
+282
+white mcts94
+black heuristic188
+average time 88.55367517471313
+283
+white mcts95
+black heuristic188
+average time 88.41415632318692
+284
+white mcts95
+black heuristic189
+average time 88.25013667009246
+285
+white mcts95
+black heuristic190
+average time 88.13830957329064
+286
+white mcts95
+black heuristic191
+average time 87.98211081211383
+287
+white mcts95
+black heuristic192
+average time 87.84922436305455
+288
+white mcts96
+black heuristic192
+average time 87.68587035189073
+289
+white mcts97
+black heuristic192
+average time 87.54930147910201
+290
+white mcts98
+black heuristic192
+average time 87.4283065935661
+291
+white mcts98
+black heuristic193
+average time 87.30919083205285
+292
+white mcts98
+black heuristic194
+average time 87.1567578364725
+293
+white mcts99
+black heuristic194
+average time 86.99736978576452
+294
+white mcts100
+black heuristic194
+average time 86.83175864754891
+295
+white mcts101
+black heuristic194
+average time 86.67693933309135
+296
+white mcts101
+black heuristic195
+average time 86.55107502115739
+297
+white mcts102
+black heuristic195
+average time 86.40400596339293
+298
+white mcts103
+black heuristic195
+average time 86.25645038025492
+299
+white mcts103
+black heuristic196
+average time 86.1734869009675
+300
+white mcts103
+black heuristic197
+average time 86.03141873677572
+301
+white mcts103
+black heuristic198
+average time 85.93681506381874
+302
+white mcts103
+black heuristic199
+average time 85.78724490806756
+303
+white mcts104
+black heuristic199
+average time 85.6650995618046
+304
+white mcts104
+black heuristic200
+average time 85.54458308298337
+305
+white mcts104
+black heuristic201
+average time 85.43010839477914
+306
+white mcts104
+black heuristic202
+average time 85.29899605271083
+307
+white mcts104
+black heuristic203
+average time 85.17404891302998
+308
+white mcts104
+black heuristic204
+average time 85.06109046161949
+309
+white mcts104
+black heuristic205
+average time 84.91191799123696
+310
+white mcts105
+black heuristic205
+average time 84.7774615164726
+311
+white mcts106
+black heuristic205
+average time 84.66407425457258
+312
+white mcts107
+black heuristic205
+average time 84.53849962200874
+313
+white mcts107
+black heuristic206
+average time 84.42697787589539
+314
+white mcts107
+black heuristic207
+average time 84.31633013448898
+315
+white mcts108
+black heuristic207
+average time 84.20415462917752
+316
+white mcts108
+black heuristic208
+average time 84.0847842821592
+317
+white mcts109
+black heuristic208
+average time 83.93785218034257
+318
+white mcts109
+black heuristic209
+average time 83.80489432736762
+319
+white mcts109
+black heuristic210
+average time 83.70285505336653
+320
+white mcts110
+black heuristic210
+average time 83.57668434083462
+321
+white mcts111
+black heuristic210
+average time 83.4439087545389
+322
+white mcts112
+black heuristic210
+average time 83.31055898177698
+323
+white mcts112
+black heuristic211
+average time 83.17992783699981
+324
+white mcts113
+black heuristic211
+average time 83.05328665765715
+325
+white mcts114
+black heuristic211
+average time 82.91086533913246
+326
+white mcts114
+black heuristic212
+average time 82.79204700037015
+327
+white mcts115
+black heuristic212
+average time 82.66959637968547
+328
+white mcts115
+black heuristic213
+average time 82.54967197921218
+329
+white mcts115
+black heuristic214
+average time 82.46769922555036
+330
+white mcts115
+black heuristic215
+average time 82.3735956365412
+331
+white mcts116
+black heuristic215
+average time 82.24278633904241
+332
+white mcts117
+black heuristic215
+average time 82.11932943743396
+333
+white mcts117
+black heuristic216
+average time 82.00334949249978
+334
+white mcts117
+black heuristic217
+average time 81.88371982688675
+335
+white mcts117
+black heuristic218
+average time 81.76375616486393
+336
+white mcts118
+black heuristic218
+average time 81.63840680746804
+337
+white mcts118
+black heuristic219
+average time 81.53364479577152
+338
+white mcts119
+black heuristic219
+average time 81.4209569826634
+339
+white mcts119
+black heuristic220
+average time 81.33820590016413
+340
+white mcts120
+black heuristic220
+average time 81.21457560062409
+341
+white mcts120
+black heuristic221
+average time 81.1068633287883
+342
+white mcts120
+black heuristic222
+average time 81.0077483396084
+343
+white mcts121
+black heuristic222
+average time 80.92422430438829
+344
+white mcts121
+black heuristic223
+average time 80.83209956454677
+345
+white mcts121
+black heuristic224
+average time 80.74840836041216
+346
+white mcts122
+black heuristic224
+average time 80.65533908460871
+347
+white mcts122
+black heuristic225
+average time 80.56050160295338
+348
+white mcts122
+black heuristic226
+average time 80.48759928516958
+349
+white mcts122
+black heuristic227
+average time 80.40469814371585
+350
+white mcts122
+black heuristic228
+average time 80.3033365719659
+351
+white mcts122
+black heuristic229
+average time 80.22965190892886
+352
+white mcts122
+black heuristic230
+average time 80.17526728727601
+353
+white mcts123
+black heuristic230
+average time 80.10925200910812
+354
+white mcts123
+black heuristic231
+average time 80.01764027479678
+355
+white mcts124
+black heuristic231
+average time 79.91921304581871
+356
+white mcts124
+black heuristic232
+average time 79.81896329327915
+357
+white mcts124
+black heuristic233
+average time 79.72608105341594
+358
+white mcts124
+black heuristic234
+average time 79.64019998158822
+359
+white mcts124
+black heuristic235
+average time 79.55309785308944
+360
+white mcts125
+black heuristic235
+average time 79.48111770351728
+361
+white mcts125
+black heuristic236
+average time 79.42367812272914
+362
+white mcts125
+black heuristic237
+average time 79.3205860892712
+363
+white mcts126
+black heuristic237
+average time 79.24004606438734
+364
+white mcts126
+black heuristic238
+average time 79.16991327228126
+365
+white mcts126
+black heuristic239
+average time 79.10730502246177
+366
+white mcts127
+black heuristic239
+average time 79.00146177101657
+367
+white mcts128
+black heuristic239
+average time 78.90122014820089
+368
+white mcts128
+black heuristic240
+average time 78.81164187581643
+369
+white mcts128
+black heuristic241
+average time 78.70175096013035
+370
+white mcts128
+black heuristic242
+average time 78.62626449804048
+371
+white mcts128
+black heuristic243
+average time 78.56117247185617
+372
+white mcts128
+black heuristic244
+average time 78.47258171278943
+373
+white mcts129
+black heuristic244
+average time 78.41949313191881
+374
+white mcts130
+black heuristic244
+average time 78.31966904395405
+375
+white mcts130
+black heuristic245
+average time 78.26231250953674
+376
+white mcts131
+black heuristic245
+average time 78.15783246590736
+377
+white mcts131
+black heuristic246
+average time 78.0728266163277
+378
+white mcts131
+black heuristic247
+average time 77.97536467244386
+379
+white mcts132
+black heuristic247
+average time 77.86314984739299
+380
+white mcts132
+black heuristic248
+average time 77.7782581053282
+381
+white mcts132
+black heuristic249
+average time 77.7182615829578
+382
+white mcts132
+black heuristic250
+average time 77.62045702634681
+383
+white mcts132
+black heuristic251
+average time 77.53585590892921
+384
+white mcts132
+black heuristic252
+average time 77.4707029927522
+385
+white mcts133
+black heuristic252
+average time 77.37525422108638
+386
+white mcts134
+black heuristic252
+average time 77.30150156008764
+387
+white mcts134
+black heuristic253
+average time 77.23222116044018
+388
+white mcts134
+black heuristic254
+average time 77.15098720174475
+389
+white mcts134
+black heuristic255
+average time 77.07853582034075
+390
+white mcts134
+black heuristic256
+average time 77.00572525171133
+391
+white mcts134
+black heuristic257
+average time 76.9112385660791
+392
+white mcts134
+black heuristic258
+average time 76.83572369935561
+393
+white mcts135
+black heuristic258
+average time 76.74078857079716
+394
+white mcts136
+black heuristic258
+average time 76.65160722901979
+395
+white mcts137
+black heuristic258
+average time 76.57880247393742
+396
+white mcts137
+black heuristic259
+average time 76.50221391217877
+397
+white mcts138
+black heuristic259
+average time 76.4265847458347
+398
+white mcts138
+black heuristic260
+average time 76.36553327941415
+399
+white mcts138
+black heuristic261
+average time 76.28826778514642
+400
+white mcts138
+black heuristic262
+average time 76.229495113492
+401
+white mcts139
+black heuristic262
+average time 76.18218131255628
+402
+white mcts139
+black heuristic263
+average time 76.10713648796082
+403
+white mcts139
+black heuristic264
+average time 76.01427012696752

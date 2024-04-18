@@ -5,13 +5,13 @@ from constants import BLACK, ROWS, COLS, WHITE, BOARD_ORIGIN_X, BOARD_ORIGIN_Y, 
 from piece import Piece
 from copy import deepcopy
 
-
+PIECE_NUM = 7
 
 class Board:
     def __init__(self, current_player=None):
         self.board = [[0 for _ in range(10)] for _ in range(3)]
-        self.white_left = 7
-        self.gray_left = 7
+        self.white_left = PIECE_NUM
+        self.gray_left = PIECE_NUM
         self.dice_num = 0
         self.turn = GRAY
         self.current_player = current_player
@@ -85,6 +85,7 @@ class Board:
         image_center_y = BOARD_ORIGIN_Y + SQUARE_SIZE * row + TILE_MARGIN * row
         window.blit(scaled_sign, (image_center_x, image_center_y))
     
+    # for 7 pieces
     def create_pieces(self):
         for col in range(COLS):
             if col % 2 == 0:
@@ -245,7 +246,7 @@ class Board:
     def successor(self, piece):
         new_copy = deepcopy(self)
         copied_piece = None
-        if copied_piece:
+        if piece:
             copied_piece = new_copy.board[piece.row][piece.col]
         move = new_copy.get_valid_moves_mcts(copied_piece)
         if move:
@@ -495,5 +496,19 @@ class Board:
         
     def __repr__(self):
         return str(self.board)
+    
+    def same_board(self, other_board):
+        for i in range(ROWS):
+            for j in range(COLS):
+                if self.board[i][j] != other_board[i][j]:
+                    return False
+        return True
+
+    
+    def __eq__(self, other):
+        if isinstance(other, Board):
+            return self.turn == other.turn and self.dice_num == other.dice_num and self.same_board(other.board)
+            # return self.turn == other.turn and self.same_board(other.board)
+        return False
 
 
