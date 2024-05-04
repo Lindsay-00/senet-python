@@ -9,7 +9,7 @@ import pdb
 class AIPlayer(Player):
     def __init__(self, color, board, type):
         super().__init__(color, board, type)
-        self.time_limit = 5
+        self.time_limit = 3
     
     def heuristic(self):
         valid_pieces = self.board.get_valid_pieces()
@@ -62,10 +62,11 @@ class AIPlayer(Player):
                 best_reward = float('-inf')
                 cur_dice = self.dice()
                 for child in current_node.children:
+                    # * multiplier should be exploit
                     if child.state.dice_num == cur_dice:
-                        exploitation = child.reward / child.visits
                         actor_multiplier = 1 if current_node.state.actor() == 0 else -1
-                        exploration = math.sqrt(2 * math.log(child.parent.visits) / child.visits) * actor_multiplier
+                        exploitation = (child.reward / child.visits) * actor_multiplier
+                        exploration = math.sqrt(2 * math.log(child.parent.visits) / child.visits)
                         if best_reward < exploitation + exploration:
                             best_reward = exploitation + exploration
                             best_child = child
@@ -97,8 +98,11 @@ class AIPlayer(Player):
                 # # random simulation
                 #     current_reward = self.simulate(new_node)
                 # else:
-                # heuristic simulation
-                current_reward = self.simulate_heuristic(new_node)
+                # # heuristic simulation
+                #     current_reward = self.simulate_heuristic(new_node)
+
+                # mix simulation
+                current_reward = self.simulate_mix(new_node)
             
             # backpropagate
             while new_node is not None:
@@ -124,15 +128,15 @@ class AIPlayer(Player):
         for key, reward_visits in piece_dict.items():
             actor_multiplier = 1 if root.state.actor() == 0 else -1
             new_reward = (reward_visits[0] / reward_visits[1]) * actor_multiplier
-            print(reward_visits[2], new_reward, reward_visits)
+            # print(reward_visits[2], new_reward, reward_visits)
             if new_reward >= best_reward:
                 best_piece = reward_visits[2]
                 best_reward = new_reward
 
-        print("best")
-        print(best_piece)
-        print(root.state.dice_num)
-        print(root.state)
+        # print("best")
+        # print(best_piece)
+        # print(root.state.dice_num)
+        # print(root.state)
         return best_piece
     
     def prep_dict(self, root, piece_dict):
@@ -159,6 +163,17 @@ class AIPlayer(Player):
         board = deepcopy(node.state)
         while not board.is_terminal():
             piece = self.select_heuristic(board)
+            board.successor_simulate(piece)
+        return board.payoff()
+
+    def simulate_mix(self, node):
+        board = deepcopy(node.state)
+        while not board.is_terminal():
+            piece = None
+            if random.random() < 0.2:
+                piece = board.random_step()
+            else:
+                piece = self.select_heuristic(board)
             board.successor_simulate(piece)
         return board.payoff()
 

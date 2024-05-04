@@ -19,7 +19,7 @@ class Game:
         self.draw_new_game()
         pygame.display.update()
 
-    def _init(self, white_type="heuristic", gray_type="mcts"):
+    def _init(self, white_type="mcts", gray_type="human"):
         self.selected = None
         self.board = Board()
         self.valid_moves = None

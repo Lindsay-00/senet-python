@@ -10,7 +10,7 @@ FPS = 60
 
 import sys
 
-def print_and_log(*args, file_name="5_heuristic_sim.log", **kwargs):
+def print_and_log(*args, file_name="1_mix_sim.log", **kwargs):
     # Open the log file in append mode
     with open(file_name, "a") as log_file:
         # Print to stdout
